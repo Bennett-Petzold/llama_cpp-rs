@@ -47,6 +47,8 @@ Keep in mind that [llama.cpp](https://github.com/ggerganov/llama.cpp) is very co
 debug builds (running just `cargo build`/`cargo run`) will suffer greatly from the lack of optimisations. Therefore,
 unless
 debugging is really necessary, it is highly recommended to build and run using Cargo's `--release` flag.
+When used as a dependency, this crate can be [overriden](https://doc.rust-lang.org/cargo/reference/profiles.html#overrides)
+for a higher opt level in dev builds.
 
 ### Cargo Features
 
